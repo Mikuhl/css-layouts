@@ -1,0 +1,57 @@
+/* Row1 */
+.parent {
+display: flex;
+border: 1px solid black;
+width: 700px;
+height: 100px;
+flex-direction: row;
+}
+
+.box1 {
+  background-color: black;
+  width: 100px;
+  height: 100px;
+}
+
+.box2 {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+}
+
+
+/* Row2 */
+.parent1 {
+display: flex;
+border: 1px solid black;
+width: 700px;
+height: 100px;
+flex-direction: row;
+}
+
+/* Row3 */
+.parent2 {
+display: flex;
+border: 1px solid black;
+width: 700px;
+height: 100px;
+flex-direction: row;
+}
+
+/* Row3 */
+.parent3 {
+display: flex;
+border: 1px solid black;
+width: 700px;
+height: 100px;
+flex-direction: row;
+}
+
+/* Row5 */
+.parent4 {
+display: flex;
+border: 1px solid black;
+width: 700px;
+height: 100px;
+flex-direction: row;
+}
