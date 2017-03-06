@@ -1,126 +1,41 @@
-/* This is the Header */
-
-
-.parent {
+main {
   display: flex;
-  border: 1px solid black;
-  width: 1000px;
-  height: 200px;
-  flex-direction: row;
+  flex-flow: row wrap;
+  text-align: center;
 }
 
-.header {
-  border: 1px solid black;
-  width: 1000px;
-  height: 200px;
+section {
+  min-height: 150px;
+  min-width: 150px
+}
+
+#header {
   background-color: lightblue;
-  }
-
-/* This is the Left, Right and Center */
-.parent1 {
-  display: flex;
-  border: 1px solid black;
-  width: 1000px;
-  height: 200px;
-  flex-direction: row;
+  flex-basis: 100%;
 }
 
-.left {
-  border: 1px solid black;
-  width: 200px;
-  height: 200px;
+#left-side {
   background-color: #d966ff;
-  }
+  flex-basis: 40%;
+}
 
-.center {
-  border: 1px solid black;
-  width: 600px;
-  height: 200px;
+#center {
   background-color: pink;
-  }
+  flex-basis: 20%;
 
-.right {
-  border: 1px solid black;
-  width: 200px;
-  height: 200px;
+}
+
+#right-side {
   background-color: #d966ff;
-  }
-
-/* This is the bottom */
-.parent2 {
-  display: flex;
-  border: 1px solid black;
-  width: 1000px;
-  height: 200px;
-  flex-direction: row;
+  flex-basis: 40%;
 }
 
-.bottom {
-  border: 1px solid black;
-  width: 1000px;
-  height: 200px;
+#footer {
   background-color: lightblue;
-  }
-/* This is the Header */
-
-
-.parent {
-  display: flex;
-  border: 1px solid black;
-  width: 1000px;
-  height: 200px;
-  flex-direction: row;
+  flex-basis: 100%
 }
 
-.header {
-  border: 1px solid black;
-  width: 1000px;
-  height: 200px;
-  background-color: lightblue;
-  }
 
-/* This is the Left, Right and Center */
-.parent1 {
-  display: flex;
-  border: 1px solid black;
-  width: 1000px;
-  height: 200px;
-  flex-direction: row;
-}
 
-.left {
-  border: 1px solid black;
-  width: 200px;
-  height: 200px;
-  background-color: #d966ff;
-  }
 
-.center {
-  border: 1px solid black;
-  width: 600px;
-  height: 200px;
-  background-color: pink;
-  }
 
-.right {
-  border: 1px solid black;
-  width: 200px;
-  height: 200px;
-  background-color: #d966ff;
-  }
-
-/* This is the bottom */
-.parent2 {
-  display: flex;
-  border: 1px solid black;
-  width: 1000px;
-  height: 200px;
-  flex-direction: row;
-}
-
-.bottom {
-  border: 1px solid black;
-  width: 1000px;
-  height: 200px;
-  background-color: lightblue;
-  }
